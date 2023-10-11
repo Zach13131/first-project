@@ -84,7 +84,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 10px;
-  margin-top: -50px;
+  margin-top: -45px;
 }
 
 .main__item-price {
@@ -145,6 +145,12 @@ body {
 @media (max-width: 600px) {
   html {
     font-size: 14px;
+  }
+  .main__item {
+    text-align: center;
+  }
+  .main__item-img {
+    margin: 0 auto;
   }
 }
 
